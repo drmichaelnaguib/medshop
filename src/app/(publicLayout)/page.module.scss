@@ -1,0 +1,24 @@
+.homePage {
+  .homePage-title {
+    color: #495057;
+    text-align: center;
+    font-family: "__Inter_36bd41", "__Inter_Fallback_36bd41";
+    font: 700;
+  }
+
+  .see-more-container {
+    background-color: #495057;
+    height: 20px;
+    width: 100%;
+    text-align: center;
+    &:hover {
+      // transform: scale(1.02);
+      box-shadow: 11px 9px 8px 0px rgb(190, 186, 186);
+    }
+    .see-more-container-text {
+      font: 500;
+      color: #ffffff;
+      text-decoration: none;
+    }
+  }
+}
